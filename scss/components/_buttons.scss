@@ -14,20 +14,40 @@
 
 .default {
   background-color: $default;
+  transition-delay: 0.25s;
+  &:hover {
+    background-color: $default-light;
+  }
 }
 
 .error {
   background-color: $error;
+  transition-delay: 0.25s;
+  &:hover {
+    background-color: $error-light;
+  }
 }
 
 .info {
   background-color: $info;
+  transition-delay: 0.25s;
+  &:hover {
+    background-color: $info-light;
+  }
 }
 
 .success {
   background-color: $success;
+  transition-delay: 0.25s;
+  &:hover {
+    background-color: $success-light;
+  }
 }
 
 .warning {
   background-color: $warning;
+  transition-delay: 0.25s;
+  &:hover {
+    background-color: $warning-light;
+  }
 }
